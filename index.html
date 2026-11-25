@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a1020">
+<meta name="description" content="Pulse 360 — Central de trabalho para social media premium, com planejamento, criação, clientes e relatórios.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<title>Pulse 360 · Social Media Premium</title>
+</head>
+<body>
+<div id="app">
+  <aside class="sidebar">
+    <a class="logo" href="#inicio" aria-label="Pulse 360 início"><span class="logo-mark">✳</span><span><strong>pulse<span class="mint">360</span></strong><small>Social Media OS</small></span></a>
+    <div class="sidebar-sep"></div>
+    <div class="nav-label">WORKSPACE</div>
+    <nav id="nav" class="nav" aria-label="Navegação principal"></nav>
+    <div class="sidebar-bottom"><div class="sidebar-plan"><span class="pulse-dot"></span><div><b>Modo local ativo</b><small>Seus dados ficam neste aparelho</small></div></div><button class="side-help" id="btnHelp">Como funciona <span>↗</span></button></div>
+  </aside>
+  <div class="main-shell">
+    <header class="topbar">
+      <div class="topbar-title"><button class="mobile-menu" id="mobileMenu" aria-label="Abrir menu">☰</button><div class="topbar-breadcrumb">WORKSPACE <span>/</span> <span id="crumb">Visão geral</span></div></div>
+      <div class="topbar-actions"><span class="date-pill" id="todayLabel"></span><select id="clientSelector" class="client-switch" aria-label="Selecionar marca"></select><button class="user-avatar" id="btnSettings" title="Configurações">⚙</button></div>
+    </header>
+    <main class="content" id="content"></main>
+  </div>
+  <nav class="bottom-nav" id="bottomNav" aria-label="Navegação rápida"></nav>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div id="modalRoot"></div>
+<script src="app.js" defer></script>
+</body>
+</html>
