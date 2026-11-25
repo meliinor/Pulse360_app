@@ -1,0 +1,18 @@
+STREAMCUT STUDIO - ABRIR NO CELULAR SEM INSTALAR NODE
+
+1. NO CHATGPT: baixe o arquivo StreamCut_Celular_Replit.zip.
+2. NO CHROME: acesse https://replit.com/import e entre na sua conta (ou crie uma).
+3. ESCOLHA: "ZIP" ou "Importar ZIP". Selecione o arquivo na pasta Downloads do Android.
+4. ABRA o projeto importado e toque no botao "Run" (Executar).
+5. ABRA a aba "Preview" (Visualizar), clique para abrir o site e crie uma conta no StreamCut.
+
+O Replit executa Node, FFmpeg e yt-dlp na nuvem. Nada disso precisa ser instalado no Android.
+
+SE O REPLIT PEDIR UMA MENSAGEM AO AGENT, COPIE:
+"Este ZIP ja e um aplicativo Node.js pronto. Preserve todos os arquivos. Use Node 22 ou superior, FFmpeg e yt-dlp do arquivo replit.nix. Inicie com node server.js na porta 3000 e host 0.0.0.0. Nao substitua a interface nem crie um novo app."
+
+ATENCAO: isso permite testar pelo navegador, com servidor rodando no Replit. Publicar para todos e deixar ativo permanentemente pode exigir plano pago e armazenamento persistente. Dependendo do plano, o Replit pode cobrar por computacao/Agent. Os videos podem consumir bastante espaco e tempo. O login e o processamento de arquivos precisam que o servidor esteja rodando. Automacoes de publicacao precisam de servidor sempre ligado e chaves OAuth/permissoes das redes.
+
+Use videos seus ou com permissao para baixar/processar. Nunca compartilhe chaves secretas no codigo nem no GitHub. Para configuracoes das redes use Secrets/Environment Variables do Replit.
+
+Se aparecer uma mensagem de erro, tire print e envie para o ChatGPT com o texto do erro.
